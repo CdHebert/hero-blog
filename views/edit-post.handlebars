@@ -8,7 +8,7 @@
       <input name="post_url" type="text" value="{{post.post_url}}">
     </div>
     <div class="comment-div">
-       {{format_date post.created_at}}
+     <span> {{user.username}} on {{format_date created_at}}</span>
       |
       <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
     </div>

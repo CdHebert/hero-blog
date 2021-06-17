@@ -43,6 +43,7 @@ body {
 
 .warning textarea {
   background: red;
+  color: yellow;
 }
 
 .post {
@@ -61,7 +62,7 @@ body {
   border-bottom: 2px solid black;
 }
 
-.comment-div {
+.comment-div span {
   color: yellow;
 }
 
@@ -208,6 +209,11 @@ main {
   font-size: 90%;
   margin-bottom: .5%;
   opacity: .6;
+  background: red;
+  color: yellow;
+}
+
+.meta span {
   background: red;
   color: yellow;
 }
